@@ -1,5 +1,6 @@
 """
 App Store Connect MCP 客户端 - 重构为中转站模式
+提供一些AppStore需要使用的方法，比如生成JWT，调用AppStore Connect API等
 """
 
 import os

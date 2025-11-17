@@ -9,3 +9,8 @@ PyJWT
 typing-extensions
 google-api-python-client
 google-auth
+pandas
+psycopg2
+
+pytest
+pytest-asyncio

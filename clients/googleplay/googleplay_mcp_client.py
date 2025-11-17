@@ -32,7 +32,8 @@ class GooglePlayMCPClient(IMCPClient):
         self.config = config
         self._init_services()
 
-    def _load_config_from_env(self) -> Optional[GooglePlayConfig]:
+    @staticmethod
+    def _load_config_from_env() -> Optional[GooglePlayConfig]:
         """从环境变量加载Google Play配置，从.env中读取JSON字段并组装服务账号配置"""
         # 从环境变量读取服务账号JSON的各个字段
         service_account_json = {
