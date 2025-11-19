@@ -11,6 +11,7 @@ google-api-python-client
 google-auth
 pandas
 psycopg2
+sqlalchemy
 
 pytest
 pytest-asyncio

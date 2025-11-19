@@ -82,9 +82,10 @@ def split_broken_csv(file_path):
     
     return df_part1, total_rows, df_part2
 
+
 def read_csv_into_parts(file_path):
     """
-    读取CSV文件并返回三个部分的数据
+    [即将弃用]读取CSV文件并返回三个部分的数据
     
     参考split_broken_csv方法的实现，读取目标CSV文件后，返回数据的三个部分：
     1. 第一部分数据框（主要数据）

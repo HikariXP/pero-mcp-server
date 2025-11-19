@@ -7,7 +7,7 @@ from .user_handler import UserHandler
 from .testflight_handler import TestFlightHandler
 from .app_handler import AppHandler
 from .device_handler import DeviceHandler
-from .analytics_handler import AnalyticsHandler
+from .finance_handler import FinanceHandler
 from .localization_handler import LocalizationHandler
 
 __all__ = [
@@ -16,6 +16,6 @@ __all__ = [
     'TestFlightHandler',
     'AppHandler',
     'DeviceHandler',
-    'AnalyticsHandler',
+    'FinanceHandler',
     'LocalizationHandler'
 ]
